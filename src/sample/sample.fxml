@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="center" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <TextArea fx:id="mainTextArea" editable="false" nodeOrientation="RIGHT_TO_LEFT" prefHeight="342.0" prefWidth="804.0" style="-fx-background-color: #dae4e4; -fx-border-color: black;" VBox.vgrow="ALWAYS">
+      <font>
+         <Font name="Times New Roman" size="20.0" />
+      </font></TextArea>
+
+    <HBox alignment="TOP_CENTER">
+    <TextField fx:id="textField" alignment="TOP_LEFT" onAction="#tfClickAction" promptText="Введите текст" style="-fx-background-color: #abeae6; -fx-border-color: black;" HBox.hgrow="ALWAYS">
+         <font>
+            <Font size="20.0" />
+         </font></TextField>
+
+    <Button onAction="#btnClickAction" prefHeight="46.0" prefWidth="38.0" style="-fx-background-color: #d1a9af; -fx-border-color: black;" text="&gt;">
+         <font>
+            <Font name="Times New Roman Bold" size="18.0" />
+         </font></Button>
+    </HBox>
+</VBox>
