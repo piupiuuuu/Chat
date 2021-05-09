@@ -18,7 +18,7 @@
 
     <Button onAction="#btnClickAction" prefHeight="46.0" prefWidth="38.0" style="-fx-background-color: #d1a9af; -fx-border-color: black;" text="&gt;">
          <font>
-            <Font name="Times New Roman Bold" size="18.0" />
+            <Font name="Times New Roman Bold Italic" size="18.0" />
          </font></Button>
     </HBox>
 </VBox>
